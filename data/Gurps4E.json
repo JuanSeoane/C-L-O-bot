@@ -1,0 +1,12 @@
+{
+    "Ambidestro": {
+      "tipo": "Vantagem",
+      "descricao": "O personagem é capaz de lutar e manusear igualmente bem com qualquer uma das mãos e nunca sofre a penalidade de -4 na DX por estar usando a mão inábil (pág. 14). Lembre-se que isso não permite que o personagem realize ações adicionais durante o combate — para isso ele precisaria de um Ataque Adicional (pág. 42). Se um acidente ocorrer com qualquer um dos braços (ou mãos) do personagem, assuma que foi com o esquerdo.",
+      "custo": 15
+    },
+    "Código de Honra": {
+      "tipo": "Desvantagem",
+      "descricao": "Você segue um código rígido de conduta, mesmo que isso o coloque em desvantagem.",
+      "custo": -10
+    }
+  }
