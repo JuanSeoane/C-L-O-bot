@@ -26,7 +26,7 @@ function normalize(texto) {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('wiki')
-    .setDescription('Consulta algo na wiki do sistema')
+    .setDescription('Consulta algo na wiki dos sistemas disponiveis')
     .addStringOption(option =>
       option.setName('sistema')
         .setDescription('Escolha o sistema')
@@ -43,13 +43,13 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; // Altere aqui a role permitida
+    const roleNecessaria = 'everyone'; 
     
         if (!verificarPermissao(interaction, roleNecessaria)) {
           return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });
         }
     
-        // Código do comando aqui
+      
         
     const sistemasMapeados = {
       sistema1: 'Gurps4E',

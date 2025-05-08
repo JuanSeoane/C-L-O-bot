@@ -32,17 +32,17 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; // Altere aqui a role permitida
+    const roleNecessaria = 'everyone'; 
     
         if (!verificarPermissao(interaction, roleNecessaria)) {
           return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });
         }
     
-        // Código do comando aqui
+       
         
     const canalId = interaction.channel.id;
 
-    // Verifica se já existe um timer em andamento neste canal
+  
     if (timersAtivos.has(canalId)) {
       return interaction.reply({
         content: '⏳ Já existe um timer ativo neste canal. Aguarde ele terminar.',
@@ -90,7 +90,7 @@ module.exports = {
       await message.edit({ embeds: [embedAtualizado] });
     }, 1000);
 
-    // Armazena o timer ativo neste canal
+
     timersAtivos.set(canalId, intervalo);
   }
 };

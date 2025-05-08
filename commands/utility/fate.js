@@ -3,7 +3,7 @@ const verificarPermissao = require('./verificacao');
 module.exports = {
     data: new SlashCommandBuilder()
       .setName('fate')
-      .setDescription('Roda 4 dados no estilo fate.'),
+      .setDescription('Roda 4 dados no estilo do sistema FATE.'),
       async execute(interaction) {
         const roleNecessaria = 'everyone'; 
             if (!verificarPermissao(interaction, roleNecessaria)) {
@@ -11,9 +11,9 @@ module.exports = {
             }
             const simbolos = ['+', '+', '0', '0', '-', '-'];
     const simboloToEmoji = {
-      '+': '➕',
-      '0': '🔘',
-      '-': '➖',
+      '+': '✳️',
+      '0': '⚪️',
+      '-': '⛔',
     };
 
     // Rolar 4 dados FATE
@@ -22,7 +22,7 @@ module.exports = {
       return face;
     });
 
-    // Converter para emojis e calcular total
+ 
     const resultadoEmojis = resultados.map(s => simboloToEmoji[s]).join(' ');
     const total = resultados.reduce((acc, val) => {
       if (val === '+') return acc + 1;
@@ -33,7 +33,7 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle('🎲 Rolar Dados FATE')
       .setDescription(`Resultados: ${resultadoEmojis}\n\nTotal: **${total > 0 ? '+' : ''}${total}**`)
-      .setColor(0x5865F2); // Cor padrão (azul Discord)
+      .setColor(0x5865F2); 
 
     await interaction.reply({ embeds: [embed] });
   }

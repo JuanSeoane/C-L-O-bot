@@ -9,7 +9,7 @@ module.exports = {
     .setDescription('Puxa uma carta aleatória de um baralho (incluindo coringa)'),
   
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; // Altere aqui a role permitida
+    const roleNecessaria = 'everyone'; 
     if (!verificarPermissao(interaction, roleNecessaria)) {
       return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });
     }
@@ -18,7 +18,7 @@ module.exports = {
   
     let carta;
 
-    // 1 em 27 chance de ser coringa (2 coringas em 54 cartas)
+   
     if (Math.random() < 2 / 54) {
       carta = '🎭 Coringa';
     } else {

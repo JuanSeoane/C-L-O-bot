@@ -11,7 +11,7 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; // Altere aqui a role permitida
+    const roleNecessaria = 'everyone'; 
     
         if (!verificarPermissao(interaction, roleNecessaria)) {
           return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });

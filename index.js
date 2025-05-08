@@ -15,7 +15,7 @@ for (const folder of commandFolders) {
 	for (const file of commandFiles) {
 		const filePath = path.join(commandsPath, file);
 		const command = require(filePath);
-		// Set a new item in the Collection with the key as the command name and the value as the exported module
+		
 		if ('data' in command && 'execute' in command) {
 			client.commands.set(command.data.name, command);
 		} else {
@@ -69,14 +69,14 @@ client.once(Events.ClientReady, readyClient => {
 
 
 
-client.removeAllListeners('messageCreate'); // 👈 IMPORTANTE: remove listeners duplicados
+client.removeAllListeners('messageCreate'); 
 
 client.on('messageCreate', async message => {
     if (message.author.bot || !message.guild) return;
   
-    const input = message.content.replace(/\s+/g, ''); // remove espaços
+    const input = message.content.replace(/\s+/g, ''); 
   
-    if (!/^\d*d\d+([+\-*/]\d*d?\d+)*$/.test(input)) return; // suporta + - * /
+    if (!/^\d*d\d+([+\-*/]\d*d?\d+)*$/.test(input)) return; 
   
     const partes = input.match(/[+\-*/]?[^+\-*/]+/g);
     if (!partes) return;

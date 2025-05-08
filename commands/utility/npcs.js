@@ -31,7 +31,7 @@ module.exports = {
         ];
         const caracteristica = caracteristicas[Math.floor(Math.random() * caracteristicas.length)];
     
-        const corAleatoria = Math.floor(Math.random() * 16777215); // Gera uma cor hexadecimal aleatória
+        const corAleatoria = Math.floor(Math.random() * 16777215); 
     
         const embed = new EmbedBuilder()
           .setTitle('🌌 NPC Gerado 🌌')
