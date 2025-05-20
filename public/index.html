@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar Vantagem</title>
+</head>
+<body>
+  <h1>Adicionar Vantagem ao Gurps4E.json</h1>
+  <form id="formulario">
+    <input type="text" name="nome" placeholder="Nome" required><br>
+    <input type="text" name="tipo" placeholder="Tipo" required><br>
+    <input type="text" name="descricao" placeholder="Descrição" required><br>
+    <input type="text" name="custo" placeholder="Custo" required><br>
+    <textarea name="ampliacoes" placeholder="Ampliações (opcional)"></textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('formulario');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const data = {
+        nome: form.nome.value,
+        tipo: form.tipo.value,
+        descricao: form.descricao.value,
+        custo: form.custo.value,
+        ampliacoes: form.ampliacoes.value ? [form.ampliacoes.value] : []
+      };
+
+      const resposta = await fetch('/adicionar-gurps', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      const resultado = await resposta.json();
+      alert(resultado.mensagem);
+    });
+  </script>
+</body>
+</html>

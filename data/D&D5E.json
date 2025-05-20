@@ -1,0 +1,27 @@
+{
+  "Mago": {
+    "descricao": "O mago é um conjurador estudioso.",
+    "tipo": "Classe"
+  },
+  "Guerreiro": {
+    "descricao": "Combatente versátil e forte.",
+    "tipo": "Classe"
+  },
+  "Barbaro": {
+    "tipo": "Classe",
+    "descricao": "O barbaro é forte",
+    "imagem": "https://as1.ftcdn.net/jpg/02/10/02/98/1000_F_210029877_8iwILSFouml6bcrKrxwW4U3b0OEhgr8f.jpg"
+  },
+  "monge": {
+    "tipo": "classe",
+    "descricao": "defesa se armadura: enquanto não usar armaduras ou escudos você pode calcular sua CA como 10+DESTREZA+SABEDORIA"
+  },
+  "Fulano de Taul": {
+    "tipo": "Guerreiro, Humano",
+    "descricao": "Eu luto para conseguir dinheiro com as minhas habilidades!"
+  },
+  "Condição Agarrado": {
+    "tipo": "Regra de Condição",
+    "descricao": "O deslocamento de uma criatura agarrada se torna 0, e ela não pode se beneficiar de qualquer bônus em seu deslocamento."
+  }
+}

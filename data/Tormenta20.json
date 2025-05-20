@@ -1,0 +1,418 @@
+{
+  "Atributos": {
+    "descricao": "Todo personagem tem seis atributos, que definem suas competências básicas. Eles afetam quase tudo que você faz durante o jogo.\n\n💪 **Força**:Seu poder muscular. A Força é aplicada em teste de Atletismo e Luta; rolagens de dano corpo a corpo ou com armas de arremesso, e teste de Força para levantar pesos e atos similares.\n\n⚡️ **Destreza**: Sua agilidade, reflexos, equilíbrio e coordenação. A Destreza é aplicada na Defesa e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pilotagem, Pontaria e Reflexos.\n\n❤️ **Constituição**: Sua saúde e vigor. A Constituição é aplicada aos pontos de vida iniciais e por nível e em testes de Fortitude. Se a Constituição muda, seus pontos de vida aumentam e diminuem retroativamente de acordo. \n\n📖 **Inteligência**: Sua capacidade de raciocínio, memória e educação em geral. A inteligência é aplicada em testes de Conhecimento, Guerra, Investigação, Misticismo, Nobreza e Ofício. Além disso, se sua Inteligência for positiva, você recebe um número de perícias treinadas adicionais igual ao valor dela. Essas perícias não precisam ser da sua classe.\n\n🧙🏻 **Sabedoria**: Sua observação, ponderação e determinação. A Sabedoria é aplicada em testes de Cura, Intuição, Percepção, Religião, Sobrevivência e Vontade.\n\n💞**Carisma**: Sua força de personalidade e capacidade de persuasão, além de uma mistura de simpatia e beleza. O Carisma é aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação e Jogatina.",
+    "imagem": "https://cdn.discordapp.com/attachments/1138542884073775114/1372627798589702296/image.png?ex=682776c1&is=68262541&hm=0853899c1dda153e4cd160a474ef359689bad04e7669d2d10b853de5006a3cc9&"
+  },
+  "Pericias": {
+    "descricao": "💪 **Força**\n💪 **Atletismo**, 🥊 **Luta**\n\n⚡️ **Destreza**\n💨 **Acrobacia**, 🐎 **Cavalgar**, 🕶️ **Furtividade**\n⚡️ **Iniciativa**, 🗝️ **Ladinagem**, ✈️ **Pilotagem**\n🎯 **Pontaria**, 🌀 **Reflexos**\n\n❤️ **Constituição**\n🛡️ **Fortitude**\n\n📖 **Inteligência**\n📚 **Conhecimento**, ⚔️ **Guerra**, 🔍 **Investigação**\n🔮 **Misticismo**, 👑 **Nobreza**, 🛠️ **Ofício**\n\n🧙🏻 **Sabedoria**\n🩹 **Cura**, 🧠 **Intuição**, 👁️ **Percepção**\n⛪ **Religião**, 🌲 **Sobrevivência**, 🧘 **Vontade**\n\n💞 **Carisma**\n🐶 **Adestramento**, 🎭 **Atuação**, 🕊️ **Diplomacia**\n🎭 **Enganação**, 😠 **Intimidação**, 🎲 **Jogatina**",
+    "imagem": "https://cdn.discordapp.com/attachments/1138542884073775114/1372641617609228298/image.png?ex=682783a0&is=68263220&hm=6d17780de86d828538d3bfa889e730ce5f93ecc0839874d6ebeb913208facced&"
+  },
+  "Acrobacia": {
+    "descricao": "**Teste de Destreza**. Você consegue fazer proezas acrobáticas.\n\n**Amortecer Queda** (CD 15, apenas treinado): Quando cai, você pode gastar uma reação e fazer um teste de Acrobacia para reduzir o dano. Se passar, reduz o dano da queda em 1d6, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Se reduzir o dano a zero, você cai de pé.\n\n**Equilíbrio**: Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, cai. A CD é 10 para piso escorregadio, 15 para uma superfície estreita (como o topo de um muro) e 20 para uma superfície muito estreita (como uma corda esticada). Você pode sofrer –5 no teste para avançar seu deslocamento total. Quando está se equilibrando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Acrobacia; se falhar, cai.\n\n**Escapar**: Você pode escapar de amarras. A dificuldade varia: cordas (CD igual ao resultado do teste de Destreza de quem o amarrou +10), redes (CD 20), algemas (CD 30). Este uso gasta uma ação completa.\n\n**Levantar-se Rapidamente** (CD 20, apenas treinado): Se estiver caído, você pode fazer um teste de Acrobacia para ficar de pé. Você precisa ter uma ação de movimento disponível. Se passar no teste, se levanta como uma ação livre. Se falhar, gasta sua ação de movimento, mas continua caído.\n\n**Passar por Espaço Apertado** (CD 25, apenas treinado): Você pode se espremer por espaços estreitos, suficientes para criaturas uma categoria de tamanho menor. Você gasta uma ação completa e avança metade do deslocamento.\n\n**Passar por Inimigo**: Você pode atravessar um espaço ocupado por um inimigo como parte de seu movimento. Faça um teste de Acrobacia oposto ao teste de Acrobacia, Iniciativa ou Luta do oponente (o que for melhor). Se você passar, atravessa o espaço; se falhar, não atravessa e sua ação de movimento termina. Um espaço ocupado por um inimigo conta como terreno difícil.",
+    "imagem": "https://cdn.discordapp.com/attachments/1138542884073775114/1372660381566242826/image.png?ex=68279519&is=68264399&hm=61d46f64d33c95ed30a9dcc1c8a3ffc039c24f0f5db596c84422a2bba2d849d0&"
+  },
+  "Adestramento": {
+    "descricao": "**Teste de Carisma**. Você sabe lidar com animais.\n\n**Acalmar Animal** (CD 25): Você acalma um animal nervoso ou agressivo. Isso permite a você controlar um cavalo assustado ou convencer um lobo a não devorá-lo. Este uso gasta uma ação completa.\n\n**Manejar Animal** (CD 15): Você faz um animal realizar uma tarefa para a qual foi treinado (como “atacar”, “sentar”, “vigiar”...). Isso permite usar Adestramento como Pilotagem para veículos de tração animal. Este uso gasta uma ação de movimento.",
+    "imagem": "https://cdn.discordapp.com/attachments/1138542884073775114/1372661128089309355/image.png?ex=682795cb&is=6826444b&hm=6abdef4dc29115157e7c18c4761718dc12ec08f074bbf031f38ac4827e0a9381&"
+  },
+  "Atletismo": {
+    "descricao": "**Teste de Força**. Você pode realizar façanhas atléticas.\n\n**🏃 Corrida**: Gaste uma ação completa e faça um teste de Atletismo. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Assim, se somar 20 no teste, avança 20 quadrados de 1,5m. Você recebe um modificador de +/–2 para cada 1,5m de deslocamento acima ou abaixo de 9m que possua. Assim, um elfo (deslocamento 12m) recebe +4 em testes de Atletismo para correr, enquanto um anão (deslocamento 6m) sofre uma penalidade de –4. Você só pode correr em linha reta e não pode correr através de terreno difícil. Você pode correr por um número de rodadas igual a 1 + sua Constituição. Após isso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, fica **fatigado**.\n\n**🧗 Escalar**: Você pode subir superfícies inclinadas ou verticais. Gaste uma ação de movimento e faça um teste de Atletismo. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, você cai.\nA CD é:\n- 10 para superfícies com apoios para os pés e mãos (como o cordame de um navio)\n- 15 para uma árvore\n- 20 para um muro com reentrâncias (como o de uma ruína)\n- 25 para um muro liso (como o de um castelo)\nVocê pode sofrer –5 no teste para avançar seu deslocamento total. Quando está escalando, você fica **desprevenido** e, se sofrer dano, deve fazer um novo teste; se falhar, você **cai**. Se um aliado próximo também estiver escalando e cair, você pode tentar segurá-lo (teste de Atletismo contra a CD da superfície +10). Se falhar por 5 ou mais, **ambos caem**.\n\n**🏊 Natação**: Se estiver na água, você precisa gastar uma ação de movimento e fazer um teste de Atletismo por rodada.\nA CD é:\n- 10 para água calma\n- 15 para água agitada\n- 20 ou mais para água tempestuosa\nSe passar, você avança metade do seu deslocamento. Se falhar, apenas boia. Se falhar por 5 ou mais, afunda. Você pode gastar outra ação de movimento na mesma rodada para tentar novamente. Se estiver submerso, deve prender a respiração (1 + Constituição rodadas). Após isso, testes de Fortitude por rodada (CD 15 +1 por teste anterior) ou você se **afoga** (0 PV). Após isso, sofre 3d6 de dano por rodada até ser retirado da água ou morrer. Armaduras impõem penalidades aos testes para nadar.\n\n**🦘 Saltar**: Você pode saltar sobre buracos ou alcançar algo elevado.\nPara salto **longo**, a CD é 5 por quadrado de 1,5m (ex: CD 10 para 3m).\nPara salto **em altura**, a CD é 15 por quadrado de 1,5m (ex: CD 30 para 3m).\nVocê precisa de 6m de corrida para impulso (sem isso, +10 na CD). Saltar é parte do movimento e **não consome ação**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1138542884073775114/1372662117995511940/image.png?ex=682796b7&is=68264537&hm=aa6f1e191793afeb776fddc6f6992935ceafbed9d4653c8e6a028d6bcd347a64&"
+  },
+  "Atuaçao": {
+    "descricao": "**Teste de Carisma**. Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia.\n\n**🎤 Apresentação (CD 20)**: Você pode se apresentar para ganhar dinheiro. Faça um teste. Se passar, recebe T$ 1d6, mais T$ 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Este uso leva um **dia** (ou **noite**...). Os valores assumem um lugar propício, como o palco de uma taverna. O mestre pode aplicar modificadores: metade do valor em locais inadequados (ruas da cidade, acampamento militar) ou o **dobro** em locais ideais (festivais, palácios).\n\n**🎭 Impressionar**: Faça um teste de Atuação **oposto** ao teste de **Vontade** da pessoa que deseja impressionar. Se passar, você recebe **+2** em testes de perícias baseadas em Carisma contra essa pessoa no mesmo dia. Se falhar, sofre **–2** nesses testes e **não pode tentar novamente no mesmo dia**. Para impressionar várias pessoas, o mestre faz um único teste representando a plateia, usando o melhor bônus. Este uso leva de **alguns minutos** (canto ou dança) até **algumas horas** (apresentação teatral).",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372663634513236028/image.png?ex=68279821&is=682646a1&hm=40cdd27d83fa8c334858bb04a9af99dfbbc8828b294754587af3f894e1417ec8&"
+  },
+  "Cavalgar": {
+    "descricao": "**Teste de Destreza**. Você sabe conduzir animais de montaria, como cavalos, trobos e grifos. Ações simples não exigem testes — você pode encilhar, montar, cavalgar em terreno plano e desmontar automaticamente. Ações perigosas, entretanto, exigem testes da perícia.\n\n**🐎 Conduzir**: Cavalgar através de obstáculos exige testes de Cavalgar. A **CD é 15** para terreno ruim e obstáculos pequenos (planície pedregosa, vala estreita) e **25** para terreno perigoso ou obstáculos grandes (encosta nevada, pântano traiçoeiro). Se você falhar, **cai da montaria** e sofre **1d6 pontos de dano**. Conduzir é parte de seu movimento e **não exige uma ação**.\n\n**🏇 Galopar**: Gaste **uma ação completa** e faça um teste de Cavalgar. Você **avança um número de quadrados de 1,5m igual ao resultado do teste**. Seu teste sofre um modificador de **+/–2** para cada **1,5m de deslocamento acima ou abaixo de 9m** que você possua.\n\n**⚡ Montar Rapidamente (CD 20)**: Você pode **montar ou desmontar como uma ação livre** (o normal é gastar uma ação de movimento). Se **falhar por 5 ou mais**, você **cai no chão**. Esta perícia exige **uma sela** — sem ela, você sofre **–5 no teste**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372663717317185657/image.png?ex=68279835&is=682646b5&hm=5723f3f1452b7e3ae1276157b80c1109064520525665b2eb802d31bad534654b&"
+  },
+  "Conhecimento": {
+    "descricao": "**Teste de Inteligência**. Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história...\n\n**📜 Idiomas (CD 20)**: Você pode **entender idiomas desconhecidos**. Se **falhar por 5 ou mais**, você **tira uma conclusão falsa**. Idiomas **exóticos ou muito antigos** têm **CD 30**.\n\n**📚 Informação**: Você **responde dúvidas gerais**. Questões **simples**, como o ano de fundação de um reino, **não exigem testes**. Questões **complexas**, como saber o antídoto de um veneno, têm **CD 20**. Por fim, **mistérios e enigmas**, como a origem de uma antiga maldição, têm **CD 30**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372663766411509800/image.png?ex=68279840&is=682646c0&hm=ac99998cfb0773c541299749917fa334dc314a9ac7a6dce6b48b488df12bcf22&"
+  },
+  "Cura": {
+    "descricao": "**Teste de Sabedoria**. Você sabe tratar ferimentos, doenças e venenos.\n\n**🛏️ Cuidados Prolongados (CD 15, apenas treinado)**: Você trata uma pessoa para que ela se recupere mais rapidamente. Se passar, ela **aumenta sua recuperação de PV em +1 por nível** nesse dia. Este uso **leva uma hora** e o número máximo de pessoas que você pode cuidar é igual ao seu nível.\n\n**🧬 Necropsia (CD 20, apenas treinado)**: Você examina um cadáver para **determinar a causa e o momento aproximado da morte**. Causas raras ou extraordinárias, como um veneno ou maldição, possuem **CD 30**. Este uso **leva dez minutos**.\n\n**🩹 Primeiros Socorros (CD 15)**: Você **estabiliza um personagem adjacente que esteja sangrando**. Este uso **gasta uma ação padrão**.\n\n**💉 Tratamento (apenas treinado)**: Você ajuda a **vítima de uma doença ou veneno com efeito contínuo**. Gaste uma **ação completa** e faça um **teste de Cura contra a CD da doença ou veneno**. Se você passar, o paciente **recebe +5 em seu próximo teste de Fortitude** contra esse efeito. Esta perícia **exige uma maleta de medicamentos**. Sem ela, você sofre **–5 no teste**. Você pode usar a perícia Cura em si mesmo, mas também **sofre –5 no teste**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372663837060235354/image.png?ex=68279851&is=682646d1&hm=446a94b3da5044ce764d8f0ee03fc98a1c882dc06bda5e5faadfbda189466e9a&"
+  },
+  "Diplomacia": {
+    "descricao": "**Teste de Carisma**. Você convence pessoas com lábia e argumentação.\n\n**💰 Barganha**: Comprando ou vendendo algo, você pode barganhar. Seu **teste de Diplomacia é oposto pelo teste de Vontade do negociante**. Se passar, você **muda o preço em 10% a seu favor**. Se passar por 10 ou mais, muda em **20%**. Se falhar por 5 ou mais, você **ofende o negociante** — ele **não voltará a tratar com você durante pelo menos uma semana**. Alguns comerciantes ou estabelecimentos podem **não ter permissão de baixar seus preços**.\n\n**🤝 Mudar Atitude**: Você muda a **categoria de atitude de um NPC** em relação a você ou a outra pessoa. Faça um **teste de Diplomacia oposto pelo teste de Vontade** do alvo. Se você passar, **muda a atitude em uma categoria** para cima ou para baixo, à sua escolha. Se passar por 10 ou mais, **muda em até duas categorias**. Se falhar por 5 ou mais, a atitude do alvo **muda uma categoria na direção oposta**. Este uso **gasta um minuto**. Você pode sofrer **–10 no teste para fazê-lo como uma ação completa** (para evitar uma briga, por exemplo). Você só pode **mudar a atitude de uma mesma pessoa uma vez por dia**.\n\n**🗣️ Persuasão (CD 20)**: Você convence uma pessoa a **fazer alguma coisa**, como responder a uma pergunta ou prestar um favor. Se essa coisa for **custosa**, você sofre **–5** no teste. Se for **perigosa**, você sofre **–10 ou falha automaticamente**. De acordo com o mestre, seu teste pode ser **oposto ao teste de Vontade** da pessoa. Este uso **gasta um minuto ou mais**, a critério do mestre.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372663913061154887/image.png?ex=68279863&is=682646e3&hm=67ea2af501ceaf5c09dcdf104316fb7a1903de8ed49f7ce751e7afe390c3cebc&"
+  },
+  "Enganaçao": {
+    "descricao": "**Teste de Carisma**. Você manipula pessoas com blefes e trapaças.\n\n**🎭 Disfarce**: Você muda sua aparência ou a de outra pessoa. Faça um **teste de Enganação oposto pelo teste de Percepção** de quem prestar atenção no disfarçado. Se você passar, a pessoa acredita no disfarce; caso contrário, percebe que há algo errado. Disfarces **muito complexos** (como uma raça diferente) impõem **–5** no seu teste. Se o disfarce é de uma **pessoa específica**, quem conhecê-la recebe **+10** no teste de Percepção. Um disfarce exige **dez minutos** e um **estojo de disfarces**. Sem ele, você sofre **–5** no teste.\n\n**📄 Falsificação**: Você falsifica um documento. Faça um **teste de Enganação oposto pelo teste de Percepção** de quem examinar o documento. Se você passar, a pessoa acredita na falsificação; caso contrário, percebe que é falso. Se o documento for **complexo** ou incluir **assinatura/carimbo específico**, você sofre **–10** no teste. Usada com **Ofício**, permite falsificar objetos (joias, armas). Use **Ofício** para fabricar a peça e **Enganação** para que pareça genuína.\n\n**🗡️ Fintar**: Você pode gastar **uma ação padrão** e fazer um **teste de Enganação oposto a um teste de Reflexos** de um ser em **alcance curto**. Se passar, ele fica **desprevenido contra seu próximo ataque**, se realizado até o fim do próximo turno.\n\n**🗨️ Insinuação (CD 20)**: Você fala algo para alguém **sem que outros entendam**. Se passar, o receptor entende sua mensagem. Se falhar por 5 ou mais, **ele entende errado**. Outras pessoas podem fazer um **teste de Intuição oposto ao seu de Enganação**. Se passarem, entendem a mensagem.\n\n**🧩 Intriga (CD 20)**: Você espalha uma fofoca (ex: dizer que o taverneiro está aguando a cerveja). **Intrigas improváveis** (ex: o clérigo é um cultista) têm **CD 30**. Leva **um dia ou mais**. Se falhar por 5 ou mais, o alvo **descobre que você é a fonte**. Mesmo com sucesso, uma pessoa pode investigar com **Investigação contra seu teste de Enganação**.\n\n**🧪 Mentir**: Você faz alguém acreditar numa mentira. Seu **teste de Enganação é oposto ao de Intuição** da vítima. **Mentiras muito implausíveis** impõem **–10** no teste.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664256545292370/image.png?ex=682798b5&is=68264735&hm=c36c8b0618d01d49353cf22bb20625bea04baa254dfcbd43f30fdeadf3c1cabe&"
+  },
+  "Fortitude": {
+    "descricao": "**Teste de Constituição**. Você usa esta perícia para resistir a efeitos que exigem vitalidade, como **doenças** e **venenos**. A **CD é determinada pelo efeito**.\n\nVocê também usa **Fortitude** para **manter o fôlego** ao correr por muitas rodadas ou quando está **sem respirar** (como ao nadar ou submerso). A CD neste caso é **15 +1 por teste anterior**.\n\n🎯 Efeitos que afetam seus **testes de resistência** também afetam os testes desta perícia",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664263205982390/image.png?ex=682798b7&is=68264737&hm=1f566384579ac4355f2504c4ab99b04c7256fc7eb281a449b5cda361daaed69e&"
+  },
+  "Furtividade": {
+    "descricao": "**Teste de Destreza**. Você usa esta perícia para **ser discreto e sorrateiro**, evitando ser notado.\n\n🔍 **Esconder-se**: Faça um teste de Furtividade **oposto pelos testes de Percepção** de quem possa notá-lo. Quem falhar **não o percebe** (você tem **camuflagem total** contra essas criaturas). Esconder-se é uma **ação livre** que só pode ser feita **no final do seu turno**, e **apenas se estiver em um local propício para se esconder** (atrás de uma porta, em um quarto escuro, em uma mata densa, no meio de uma multidão...).\n\n📉 Modificadores:\n- Se você **se moveu** no turno, sofre **–5** no teste (pode evitar isso movendo-se à metade do deslocamento normal).\n- Se você **atacou ou fez algo chamativo**, sofre **–20** no teste.\n\n👣 **Seguir**: Faça um teste de Furtividade **oposto ao teste de Percepção da pessoa seguida**.\n- Você sofre **–5** se estiver em um local **sem esconderijos ou movimento** (como um descampado ou rua deserta).\n- A pessoa seguida recebe **+5** em Percepção se estiver **tomando precauções** (como olhar para trás).\n- Se for bem-sucedido, você **segue a pessoa até o destino**.\n- Se falhar, **ela o percebe na metade do caminho**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664388162682980/image.png?ex=682798d5&is=68264755&hm=7fee7527267ed2b27c16f5eee1c37559936a491497c5eee0301878b0b16f9f49&"
+  },
+  "Guerra": {
+    "descricao": "**Teste de Inteligência**. Você usa esta perícia quando aplica **conhecimento tático, estratégico ou logístico** para obter vantagem no campo de batalha.\n\n🧭 **Analisar Terreno** (CD 20): Como uma **ação de movimento**, você observa o campo de batalha. Se for bem-sucedido, **descobre uma vantagem** (como **cobertura, camuflagem** ou **terreno elevado**), caso exista.\n\n📋 **Plano de Ação** (CD 20): Como uma **ação padrão**, você orienta um **aliado em alcance médio**. Se tiver sucesso:\n- O aliado recebe **+5 na Iniciativa**.\n- Se a nova Iniciativa for **maior que a sua** e ele ainda **não tiver agido nesta rodada**, **age imediatamente após seu turno**.\n- A partir das próximas rodadas, ele age **de acordo com a nova ordem de Iniciativa**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664396106432734/image.png?ex=682798d6&is=68264756&hm=a8959a225332a42b93c119cc6109dcd9ae1c8628cf7e246ced4d513b8d229929&"
+  },
+  "Iniciativa": {
+    "descricao": "**Teste de Destreza**. Esta perícia determina sua **velocidade de reação em situações de perigo**.\n\n⚡ Quando uma **cena de ação** começa, todos os personagens envolvidos fazem um **teste de Iniciativa**.\n\n🎲 Eles então **agem em ordem decrescente** dos resultados, definindo a **ordem dos turnos** durante o combate ou situação tensa.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664648733823058/image.png?ex=68279913&is=68264793&hm=01482f5574341c3001e0e133d40a290d591c123b2b329286aac5262c7b132f37&"
+  },
+  "Intimidaçao": {
+    "descricao": "**Teste de Carisma**. Você pode **assustar** ou **coagir** outras pessoas. Usos de Intimidação são **efeitos de medo**.\n\n😨 **Assustar**: Gaste uma **ação padrão** e faça um **teste de Intimidação** oposto pelo **teste de Vontade** de uma pessoa em **alcance curto**. Se você passar, ela fica **abalada pelo resto da cena** (**não cumulativo**). Se você passar por **10 ou mais**, ela fica **apavorada por uma rodada** e então **abalada pelo resto da cena**.\n\n🗣️ **Coagir**: Faça um **teste de Intimidação** oposto pelo **teste de Vontade** de uma pessoa **adjacente**. Se você passar, ela **obedece uma ordem sua** (como fazer uma pequena tarefa, deixar que você passe por um lugar que ela estava protegendo...). Se você mandar a pessoa fazer **algo perigoso ou que vá contra a natureza dela**, ela recebe **+5 no teste** ou **passa automaticamente**. Este uso **gasta um minuto ou mais**, de acordo com o mestre, e deixa a pessoa **hostil contra você**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664950673117214/image.png?ex=6827995b&is=682647db&hm=aca30ab7a5a5984e6e17ed30e48181c680c8a9c8eb2085773fc1cbc49d456800&"
+  },
+  "Intuiçao": {
+    "descricao": "**Teste de Sabedoria**. Esta perícia mede sua **empatia** e **“sexto sentido”**.\n\n🕵️ **Perceber Mentira**: Você descobre se alguém está **mentindo**.\n\n🔮 **Pressentimento** (CD 20, Apenas Treinado): Você analisa uma **pessoa**, para ter uma noção de sua **índole ou caráter**, ou uma **situação**, para saber se há algo **anormal** (por exemplo, se os habitantes de uma vila estão agindo de forma estranha). Este uso **apenas indica se há algo anormal**, mas **não revela a causa**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372664958189305908/image.png?ex=6827995c&is=682647dc&hm=a7878e37d3c48d4e5e3a8f44196a9842aea32902fb22f4114050a6b3d3234b56&"
+  },
+  "Investigaçao": {
+    "descricao": "**Teste de Inteligência**. Você sabe **encontrar pistas e informações**.\n\n❓ **Interrogar**: Você descobre informações perguntando ou indo a um lugar movimentado e mantendo os ouvidos atentos.\n- Informações gerais (“Quem é o guerreiro mais forte da aldeia?”) **não exigem teste**.\n- Informações restritas, que poucas pessoas conhecem (“Quem é o ancião que está sempre ao lado do rei?”), têm **CD 20**.\n- Informações confidenciais ou que podem colocar em risco quem falar sobre elas (“Quem é o líder da guilda dos ladrões?”), têm **CD 30**.\n- Este uso gasta **uma hora** e **T$ 3d6** (para comprar bebidas, subornar oficiais etc.), mas esses valores podem variar de acordo com o mestre.\n\n🔍 **Procurar**: Você examina um local em busca de algo. A CD varia:\n- **15** para um item ou no meio de uma bagunça, mas não necessariamente escondido;\n- **20** para um item escondido (cofre atrás de um quadro, documento no fundo falso de uma gaveta);\n- **30** para um item muito bem escondido (passagem secreta ativada por um botão, documento escrito com tinta invisível).\n- Este uso gasta desde uma **ação completa** (examinar uma escrivaninha) até um **dia** (pesquisar uma biblioteca).\n- Você também pode encontrar **armadilhas** (CD de acordo com a armadilha) e **rastros** (mas para segui-los deve usar Sobrevivência).",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372665065836118016/image.png?ex=68279976&is=682647f6&hm=c33b7f867e9e2885a0edca2f15a833b5f5ef12a7cdc186ae2daf45668e659512&"
+  },
+  "Jogatina": {
+    "descricao": "**Teste de Carisma**. Você sabe **jogar jogos de azar**.\n\n🎲 **Apostar**: Para resolver uma noite de jogatina, pague **T$ 1d10** e faça um teste de perícia. Seu ganho dependerá do resultado:\n- 9 ou menos: **nenhum ganho**;\n- 10 a 14: **metade da aposta**;\n- 15 a 19: **valor da aposta**;\n- 20 a 29: **dobro da aposta**;\n- 30 a 39: **triplo da aposta**;\n- 40 ou mais: **quíntuplo da aposta**.\n\n💰 O mestre pode variar o valor da aposta básica, de **T$ 1d3** (para uma taverna no porto frequentada por marujos e estivadores) até **1d10 x T$ 1.000** (para um cassino de luxo em Valkaria).",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372667849042296862/image.png?ex=68279c0e&is=68264a8e&hm=7870074e0ed56344b8eef37e13423e7cc68585323b03b3960bd699027e96b170&"
+  },
+  "Ladinagem": {
+    "descricao": "**Teste de Destreza**. Você sabe exercer **atividades ilícitas**.\n\n🔓 **Abrir Fechadura**: Você abre uma fechadura trancada. A CD é:\n- 20 para fechaduras simples (porta de loja),\n- 25 para fechaduras médias (prisão, baú),\n- 30 para fechaduras superiores (cofre, câmara do tesouro).\nEste uso exige uma **ação completa** e uma **gazua**. Sem ela, você sofre **–5** no teste.\n\n👜 **Ocultar**: Você esconde um objeto em você mesmo. Gaste uma **ação padrão** e faça um teste de Ladinagem oposto ao teste de Percepção de quem possa vê-lo.\n- Objetos discretos ou pequenos fornecem **+5** no teste;\n- Objetos desajeitados ou grandes impõem **–5**.\nSe uma pessoa revistar você, recebe **+10** no teste de Percepção.\n\n🤏 **Punga** (CD 20): Você pega um objeto de outra pessoa (ou planta um objeto nas posses dela). Gaste uma **ação padrão** e faça um teste de Ladinagem. Se passar, você pega (ou coloca) o que queria.\n- A vítima tem direito a um teste de Percepção (CD igual ao resultado do seu teste de Ladinagem). Se passar, ela percebe sua tentativa, tenha você conseguido ou não.\n\n⚙️ **Sabotar**: Você desabilita um dispositivo mecânico.\n- Uma ação simples (emperrar uma fechadura, desativar uma armadilha básica, sabotar uma roda de carroça para que quebre 1d4 rodadas após o uso) tem **CD 20**.\n- Uma ação complexa (desativar uma armadilha avançada, sabotar um canhão para explodir quando utilizado) tem **CD 30**.\n- Se você falhar por 5 ou mais, algo sai errado — a armadilha se ativa, e você pensa que o mecanismo está desabilitado, mas ele ainda funciona...\nUsar esta perícia leva **1d4 rodadas**. Você pode sofrer **–5** no teste para fazê-lo como uma **ação completa**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372667856617078804/image.png?ex=68279c0f&is=68264a8f&hm=a53b5c5039f4b8b5c86010aa108502419d6caa6132939359540bfd7caeb48dfa&"
+  },
+  "Luta": {
+    "descricao": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Teste de Força.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372667941879025674/image.png?ex=68279c24&is=68264aa4&hm=a8ce34723094450c9917a06d97d14c64fcff7236cea08d2a876ea7462944b291&"
+  },
+  "Misticismo": {
+    "descricao": "**Teste de Inteligência**. Esta perícia envolve o conhecimento de **magias, itens mágicos** e **fenômenos sobrenaturais**.\n\n✨ **Detectar Magia** (CD 15): Como uma **ação completa**, você detecta a presença e intensidade de **auras mágicas** em alcance curto (mas não suas localizações exatas). A intensidade de uma aura depende do círculo da magia ou categoria do item mágico que a gerou:\n- Magias de 1º e 2º círculos e itens mágicos menores geram uma aura **tênue**;\n- Magias de 3º e 4º círculos e itens mágicos médios geram uma aura **moderada**;\n- Magias de 5º círculo e itens mágicos maiores geram uma aura **poderosa**;\n- Magias lançadas por um deus maior e artefatos geram uma aura **avassaladora**.\nSe a aura estiver atrás de uma barreira, você sofre penalidade no teste (–5 para madeira ou pedra, –10 para ferro ou chumbo).\n\n🔍 **Identificar Criatura** (CD 15 + ND da criatura): Você analisa uma criatura mágica (construto, dragão, fada, morto-vivo etc.) que possa ver. Se passar, lembra uma característica da criatura, como um poder ou vulnerabilidade. Para cada 5 pontos acima da CD, lembra outra característica. Se falhar por 5 ou mais, tira uma conclusão errada.\nEste uso gasta uma **ação padrão**.\n\n📜 **Identificar Item Mágico**: Você estuda um item mágico para identificar seus poderes. A CD é:\n- 20 para itens mágicos menores,\n- 25 para itens mágicos médios,\n- 30 para itens mágicos maiores.\nEste uso gasta **uma hora**. Você pode sofrer penalidade de –10 para reduzir o tempo para uma ação completa.\n\n🔮 **Identificar Magia** (CD 15 + custo em PM da magia): Quando alguém lança uma magia, você pode adivinhar qual é através de seus gestos e palavras. Este uso é uma **reação**.\n\n📚 **Informação**: Você responde dúvidas relativas a magias, itens mágicos, fenômenos sobrenaturais, runas, profecias, planos de existência etc.\n- Questões simples **não exigem teste**;\n- Questões complexas têm **CD 20**;\n- Mistérios e enigmas têm **CD 30**.\n\n🛡️ **Lançar Magia de Armadura** (CD 20 + custo em PM da magia): Lançar uma magia arcana usando armadura exige um teste. O teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372667949428641842/image.png?ex=68279c26&is=68264aa6&hm=03403e856f6422f509594939aacd60fd73cb743166c820745e0c945e9751f9f9&"
+  },
+  "Nobreza": {
+    "descricao": "**Teste de Inteligência**. Você recebeu a educação de um **nobre**.\n\n🎩 **Etiqueta** (CD 15): Você sabe se portar em ambientes aristocráticos, como bailes e audiências.\n\n📚 **Informação**: Você responde dúvidas relativas a **leis, tradições, linhagens** e **heráldica**.\n- Questões simples **não exigem teste**;\n- Questões complexas têm **CD 20**;\n- Mistérios e enigmas têm **CD 30**",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668040751087786/image.png?ex=68279c3b&is=68264abb&hm=075dffb61a95a563ab1622846290d8a5d90c4e18e31e6b0a5b9d8361927df4a1&"
+  },
+  "Oficio": {
+    "descricao": "**Teste de Inteligência**. Ofício na verdade são várias perícias diferentes, cada uma permitindo fabricar itens de certas categorias:\n\n🛠️ **Tipos comuns de Ofício:**\n- Armeiro (armas, armaduras e escudos);\n- Artesão (equipamento de aventura, ferramentas, esotéricos e veículos);\n- Alquimista (alquímicos);\n- Cozinheiro (alimentação);\n- Alfaiate (vestuário).\n\nVocê pode inventar outros tipos de Ofício: carpinteiro, pedreiro, ourives, fazendeiro, pescador, estalajadeiro, escriba, escultor, pintor... Nesses casos, converse com o mestre para determinar os usos da perícia.\n\n🔧 **Consertar**: Reparar um item destruído tem a mesma CD para fabricá-lo. Cada tentativa consome **1 hora de trabalho** e **1/10 do preço original** do item. Em caso de falha, tempo e dinheiro são perdidos (mas pode tentar novamente).\n\n⚒️ **Fabricar**: Produzir um item gastando matéria-prima e tempo de trabalho.\n- Matéria-prima custa **1/3 do preço do item**.\n- Tempo depende do tipo:\n  - 1 dia para consumíveis (poções, pergaminhos, munições...);\n  - 1 semana para itens comuns não consumíveis (armas, ferramentas...);\n  - 1 mês para itens superiores e/ou mágicos.\n\nPara consumíveis, pode sofrer **–5 no teste** para fabricar duas unidades num dia (pagando o custo de ambas). Itens muito simples podem levar menos tempo; itens grandes ou complexos, meses.\n\n- **CD 15** para itens simples (equipamentos de aventura, armas simples, munições, armaduras leves, escudos, preparados, catalisadores e outros a critério do mestre);\n- **CD 20** para itens complexos (armas marciais, exóticas ou de fogo, armaduras pesadas, ferramentas, vestuários, esotéricos, venenos...)\n\n🔍 **Identificar** (CD 20): Identificar itens raros e exóticos ligados ao seu Ofício. Se passar, descobre propriedades e preço. Gasta uma **ação completa**.\n\n💰 **Sustento** (CD 15): Com uma semana de trabalho e teste de Ofício, ganha T$ 1 + T$ 1 por ponto que o teste exceder a CD. Exemplo: resultado 20 ganha T$ 6 pela semana. Sem treinamento, usa teste de atributo para sustento.\n\nCada Ofício exige um **instrumento de ofício específico**. Sem ele, sofre **–5 no teste**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668047294464181/image.png?ex=68279c3d&is=68264abd&hm=d0f8c6992f2d60e6654bf3a727d30ffc60bf4f2e67ef06c6a2baa87a6ace8d80&"
+  },
+  "Perçepcao": {
+    "descricao": "**Teste de Sabedoria**. Você nota coisas usando seus sentidos.\n\n👀 **Observar**: Você vê coisas discretas ou escondidas. A CD varia de **15** (algo difícil, como um livro específico em uma estante) a **30** (algo quase invisível, como uma gota de sangue em uma folha no meio da floresta à noite).\n- Para pessoas ou itens escondidos, a CD é o resultado do teste de **Furtividade** ou **Ladinagem** usado para escondê-los.\n- Você também pode **ler lábios** (CD 20).\n\n👂 **Ouvir**: Você escuta barulhos sutis.\n- Conversa casual próxima tem CD 0 (passa automaticamente, salvo penalidades).\n- Ouvir pessoas sussurrando: CD 15.\n- Ouvir do outro lado de uma porta: +10 na CD.\n- Pode fazer testes de Percepção para ouvir mesmo dormindo, mas sofre –10 no teste; se passar, acorda.\n- Perceber criaturas invisíveis tem CD 20 ou +10 no teste de Furtividade da criatura, o que for maior.\n- Mesmo passando no teste, você sofre penalidades normais por lutar sem ver o inimigo.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668132501622915/image.png?ex=68279c51&is=68264ad1&hm=6c04599d2862812a879770eada32c408ac981e437cb44520b22894f1e4f54ff4&"
+  },
+  "Pilotagem": {
+    "descricao": "**Teste de Destreza**. Você sabe operar veículos como carroças, barcos e balões.\n\n🚗 **Ações Simples**: Não exigem testes — você pode atrelar seus trobos à carroça e conduzi-la pela estrada, ou levantar âncora e velejar seu navio em águas tranquilas automaticamente.\n\n⚠️ **Conduzir em Situações Ruins**: Terreno acidentado para veículos terrestres, chuva ou ventania para veículos aquáticos ou aéreos exigem uma ação de movimento e teste de Pilotagem contra **CD 15** por turno ou cena (a critério do mestre).\n- Se falhar, avança metade do deslocamento.\n- Se falhar por 5 ou mais, sofre acidente.\n- Situações extremas (obstáculos, tempestades) aumentam a CD para **25**.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668138600136876/image.png?ex=68279c53&is=68264ad3&hm=84184c88ba8a7732d610345e4d5d454884528b1fe3eb189034432a8d146c1f0e&"
+  },
+  "Pontaria": {
+    "descricao": "**Teste de Destreza**. Você usa Pontaria para fazer ataques à distância.\n\n🎯 A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668215594975272/image.png?ex=68279c65&is=68264ae5&hm=380f759f366fa5d2f43555ff0425080428e0f0d847b10d15f216b4019fa80dc0&"
+  },
+  "Reflexos": {
+    "descricao": "**Teste de Destreza**. Você usa esta perícia para resistir a efeitos que exigem reação rápida, como **armadilhas** e **explosões**. A CD é determinada pelo efeito.\n\n⚡ Você também usa Reflexos para evitar **fintas**.\n\n🎯 Efeitos que afetam seus testes de resistência também afetam os testes desta perícia.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668222695804958/image.png?ex=68279c67&is=68264ae7&hm=a9c1101b97512913f5cf19fe80b878fc5b426faaa2f7e84f7000c6071ab6e7ac&"
+  },
+  "Religiao": {
+    "descricao": "**Teste de Sabedoria**. Você possui conhecimento sobre os deuses e as religiões de Arton.\n\n👁️‍🗨️ **Identificar Criatura** (CD 15 + ND da criatura): Você pode identificar criaturas com origem divina (anjos, demônios, mortos-vivos, construtos, etc.). Consulte a perícia **Misticismo**.\n\n🔮 **Identificar Item Mágico**: Você pode identificar itens mágicos de origem divina. Consulte a perícia **Misticismo**.\n\n📚 **Informação**: Você responde dúvidas sobre deuses, profecias, planos de existência etc.\n- Questões simples não exigem teste.\n- Questões complexas têm CD 20.\n- Mistérios e enigmas têm CD 30.\n\n⛪ **Rito** (CD 20): Você realiza cerimônias religiosas, como batizado, casamento ou funeral.\n- Inclui cerimônias de penitência para redimir devotos que descumpriram suas Obrigações & Restrições.\n- A penitência pode exigir sacrifício de T$ 100 por nível do devoto ou uma missão sagrada, conforme o mestre.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668303754924133/image.png?ex=68279c7a&is=68264afa&hm=199eea0f1299db38bed3db8d1fbffb0d52ea2b22b2d161b4c3a2b1fd3be390b3&"
+  },
+  "Sobrevivencia": {
+    "descricao": "**Teste de Sabedoria**. Você está em casa nos ermos.\n\n🏕️ **Acampamento**: Você consegue abrigo e alimento para você e seu grupo por um dia. A CD depende do terreno:\n- 15 para planícies e colinas\n- 20 para florestas e pântanos\n- 25 para desertos ou montanhas\n- 30 para regiões planares perigosas ou áreas de Tormenta\n\n⚠️ Regiões áridas, estéreis ou clima ruim impõem penalidade cumulativa de –5. Dormir ao relento sem acampamento e saco de dormir diminui sua recuperação de PV e PM. Este uso exige equipamento de viagem. Sem ele, sofre –5 no teste.\n\n👁️‍🗨️ **Identificar Criatura** (CD 15 + ND da criatura): Você pode identificar um animal ou monstro. Consulte a perícia **Misticismo**.\n\n🧭 **Orientar-se**: Um personagem viajando pelos ermos deve fazer um teste de Sobrevivência por dia para avançar.\n- CD depende do tipo de terreno (veja Acampamento).\n- Sucesso: avança deslocamento normal.\n- Falha: avança metade.\n- Falha por 5 ou mais: se perde e não avança no dia.\n- Em grupo, escolha um guia. Personagens treinados em Sobrevivência podem ajudar.\n- Se vários testarem, rolam em segredo e decidem quem seguir antes dos resultados.\n- Exigido apenas em jornadas perigosas, conforme mestre.\n\n👣 **Rastrear** (Apenas treinado): Você pode identificar e seguir rastros.\n- CD 15 para solo macio (neve, lama)\n- CD 20 para solo comum (grama, terra)\n- CD 25 para solo duro (rocha, piso interno)\n- CD diminui –5 se rastreando grupo grande (10+ indivíduos) ou criaturas Enormes/Colossais\n- CD aumenta +5 em visibilidade precária (noite, chuva, neblina)\n- Enquanto rastreia, deslocamento é reduzido à metade.\n- Falha permite tentar novamente, gastando mais um dia.\n- A cada dia após criação dos rastros, CD aumenta +1.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668309421686825/image.png?ex=68279c7b&is=68264afb&hm=79e702efe2056e36a2a265986c1c851eed5f85ad577f3f804b6f94801aa27282&"
+  },
+  "Vontade": {
+    "descricao": "**Teste de Sabedoria**. Você usa esta perícia para resistir a efeitos que exigem determinação, como intimidação e encantamentos.\n\n🛡️ A CD é determinada pelo efeito.\n\n🧠 Testes de Vontade são testes de resistência.\n\n⚠️ Efeitos que afetam seus testes de resistência também afetam os testes desta perícia.",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372668371023429743/image.png?ex=68279c8a&is=68264b0a&hm=5abbf1a9f29ffeedfcb5d91132c7d4dd2540837f4b27d5467f448599dc70a488&"
+  },
+  "Condicoes": {
+    "descricao": "😨 **Abalado**, 🕸️ **Agarrado**, 🧓 **Alquebrado**\n\n😱 **Apavorado**, 💫 **Atordoado**, 🤕 **Caído**\n\n🦯 **Cego**, ❓ **Confuso**, 🥀 **Debilitado**\n\n😮 **Desprevenido**, 🤢 **Doente**, 🔥 **Em Chamas**\n\n🧙 **Enfeitiçado**, 🤮 **Enjoado**, 🪢 **Enredado**\n\n☠️ **Envenenado**, 😓 **Esmorecido**, 😩 **Exausto**\n\n😍 **Fascinado**, 😴 **Fatigado**, 🫥 **Fraco**\n\n😠 **Frustrado**, 🪨 **Imóvel**, 💤 **Inconsciente**\n\n🙈 **Indefeso**, 🐢 **Lento**, 🌫️ **Ofuscado**\n\n🧊 **Paralisado**, 😯 **Pasmo**, 🪨 **Petrificado**\n\n🩸 **Sangrando**, 📦 **Sobrecarregado**, 🔇 **Surdo**\n\n😳 **Surpreendido**, 🎯 **Vulnerável**",
+    "imagem": "https://cdn.discordapp.com/attachments/1104397018455093288/1372820479374655528/image.png?ex=68282a34&is=6826d8b4&hm=f8e74db9aa82e29130f36e063bba37b0426701b51a9fe21645a510060b7e1b79&"
+  },
+  "Abalado": {
+    "descricao": "Você está abalado. Efeito de medo.\n\n- O personagem sofre –2 em testes de perícia.\n- Se ficar abalado novamente, em vez disso, o personagem fica apavorado.",
+    "imagem": ""
+  },
+  "Agarrado": {
+    "descricao": "Você está agarrado. Efeito de movimento.\n\n- O personagem fica desprevenido e imóvel.\n- O personagem sofre –2 em testes de ataque.\n- O personagem só pode atacar com armas leves.\n- Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado.",
+    "imagem": ""
+  },
+  "Alquebrado": {
+    "descricao": "Você está alquebrado. Efeito mental.\n\n- O custo em pontos de mana das habilidades e magias do personagem aumentam em +1.",
+    "imagem": ""
+  },
+  "Apavorado": {
+    "descricao": "Você está apavorado. Efeito de medo.\n\n- O personagem sofre –5 em testes de perícia.\n- O personagem não pode se aproximar voluntariamente da fonte do medo.",
+    "imagem": ""
+  },
+  "Atordoado": {
+    "descricao": "Você está atordoado. Efeito mental.\n\n- O personagem fica desprevenido.\n- O personagem não pode fazer ações.",
+    "imagem": ""
+  },
+  "Caído": {
+    "descricao": "Você está caído.\n\n- O personagem sofre –5 em ataques corpo a corpo.\n- O deslocamento do personagem é reduzido a 1,5m.\n- O personagem sofre –5 na Defesa contra ataques corpo a corpo (cumulativo com outras condições).\n- O personagem sofre +5 na Defesa contra ataques à distância (cumulativo com outras condições).",
+    "imagem": ""
+  },
+  "Cego": {
+    "descricao": "Você está cego. Efeito nos sentidos.\n\n- O personagem fica desprevenido e lento.\n- O personagem não pode fazer testes de Percepção para observar.\n- O personagem sofre –5 em testes de perícias baseadas em Força ou Destreza.\n- Todos os alvos dos ataques do personagem recebem camuflagem total.\n- Um personagem é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro.",
+    "imagem": ""
+  },
+  "Confuso": {
+    "descricao": "Você está confuso. Efeito mental.\n\nO personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos:\n\n1: Movimenta-se em uma direção escolhida por uma rolagem de 1d8;\n2-3: Não pode fazer ações, e fica balbuciando incoerentemente;\n4-5: Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano);\n6: A condição termina e pode agir normalmente.",
+    "imagem": ""
+  },
+  "Debilitado": {
+    "descricao": "Você está debilitado.\n\n- O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos.\n- Se o personagem ficar debilitado novamente, em vez disso fica inconsciente.",
+    "imagem": ""
+  },
+  "Desprevenido": {
+    "descricao": "Você está desprevenido.\n\n- O personagem sofre –5 na Defesa e em Reflexos.\n- Um personagem fica desprevenido contra inimigos que não possa perceber.",
+    "imagem": ""
+  },
+  "Doente": {
+    "descricao": "Você está sob efeito de uma doença. Efeito de metabolismo.\n\n- Um personagem contaminado deve repetir o teste de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Se passar, não sofre o efeito. Se passar por dois dias seguidos, estará curado.\n- Algumas doenças possuem efeitos progressivos. Se o personagem falhar no teste de Fortitude, sofre o primeiro efeito. Se falhar em dois testes seguidos, sofre o segundo efeito, e assim por diante.\n- Um personagem que tenha sofrido um efeito progressivo e passe no teste sofre o efeito anterior naquele dia.\n- Contaminação não é cumulativa; uma vez que contraia uma doença, o personagem não sofre efeitos adicionais por contrair novamente.",
+    "imagem": ""
+  },
+  "Em Chamas": {
+    "descricao": "Você está pegando fogo.\n\n- No início de seus turnos, o personagem sofre 1d6 pontos de dano de fogo.\n- O personagem pode gastar uma ação padrão para apagar o fogo com as mãos.\n- Imersão em água também apaga as chamas.",
+    "imagem": ""
+  },
+  "Enfeitiçado": {
+    "descricao": "Você está enfeitiçado. Efeito mental.\n\n- O personagem se torna prestativo em relação à fonte da condição.\n- O personagem não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível.\n- A fonte da condição recebe +10 em testes de Diplomacia com o personagem.",
+    "imagem": ""
+  },
+  "Enjoado": {
+    "descricao": "Você está enjoado. Efeito de metabolismo.\n\n- O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada.\n- O personagem pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro).",
+    "imagem": ""
+  },
+  "Enredado": {
+    "descricao": "Você está enredado. Efeito de movimento.\n\n- O personagem fica lento e vulnerável.\n- O personagem sofre –2 em testes de ataque.",
+    "imagem": ""
+  },
+  "Envenenado": {
+    "descricao": "Você está sob efeito de um veneno. Efeito de veneno.\n\n- O efeito desta condição varia de acordo com o veneno.\n- Perda de vida recorrente por venenos é cumulativa.",
+    "imagem": ""
+  },
+  "Esmorecido": {
+    "descricao": "Você está esmorecido. Efeito mental.\n\n- O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos.",
+    "imagem": ""
+  },
+  "Exausto": {
+    "descricao": "Você está exausto. Efeito de cansaço.\n\n- O personagem fica debilitado, lento e vulnerável.\n- Se ficar exausto novamente, em vez disso, o personagem fica inconsciente.",
+    "imagem": ""
+  },
+  "Fascinado": {
+    "descricao": "Você está com a atenção presa em alguma coisa. Efeito mental.\n\n- O personagem sofre –5 em Percepção.\n- O personagem não pode fazer ações, exceto observar aquilo que o fascinou.\n- Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível.\n- Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão.",
+    "imagem": ""
+  },
+  "Fatigado": {
+    "descricao": "Você está fatigado. Efeito de cansaço.\n\n- O personagem fica fraco e vulnerável.\n- Se ficar fatigado novamente, em vez disso fica exausto.",
+    "imagem": ""
+  },
+  "Fraco": {
+    "descricao": "Você está fraco.\n\n- O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos.\n- Se ficar fraco novamente, em vez disso fica debilitado.",
+    "imagem": ""
+  },
+  "Frustrado": {
+    "descricao": "Você está frustrado. Efeito mental.\n\n- O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos.\n- Se ficar frustrado novamente, em vez disso fica esmorecido.",
+    "imagem": ""
+  },
+  "Imóvel": {
+    "descricao": "Você está imóvel. Efeito de movimento.\n\n- Todas as formas de deslocamento do personagem são reduzidas a 0m.",
+    "imagem": ""
+  },
+  "Inconsciente": {
+    "descricao": "Você está inconsciente.\n\n- O personagem fica indefeso.\n- O personagem não pode fazer ações, incluindo reações, mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento.\n- Balançar uma criatura para acordá-la gasta uma ação padrão.",
+    "imagem": ""
+  },
+  "Indefeso": {
+    "descricao": "Você está indefeso.\n\n- O personagem fica desprevenido, mas sofre –10 na Defesa.\n- O personagem falha automaticamente em testes de Reflexo.\n- O personagem pode sofrer golpes de misericórdia.",
+    "imagem": ""
+  },
+  "Lento": {
+    "descricao": "Você está lento. Efeito de movimento.\n\n- Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m).\n- O personagem não pode correr ou fazer investidas.",
+    "imagem": ""
+  },
+  "Ofuscado": {
+    "descricao": "Você está ofuscado. Efeito nos sentidos.\n\n- O personagem sofre –2 em testes de ataque e de Percepção.",
+    "imagem": ""
+  },
+  "Paralisado": {
+    "descricao": "Você está paralisado. Efeito de movimento.\n\n- O personagem fica imóvel e indefeso.\n- O personagem só pode realizar ações puramente mentais.",
+    "imagem": ""
+  },
+  "Pasmo": {
+    "descricao": "Você está pasmo. Efeito mental.\n\n- O personagem não pode fazer ações.",
+    "imagem": ""
+  },
+  "Petrificado": {
+    "descricao": "Você está petrificado. Efeito de metamorfose.\n\n- O personagem fica inconsciente.\n- O personagem recebe redução de dano 8.",
+    "imagem": ""
+  },
+  "Sangrando": {
+    "descricao": "Você está sangrando. Efeito de metabolismo.\n\n- No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição.",
+    "imagem": ""
+  },
+  "Sobrecarregado": {
+    "descricao": "Você está sobrecarregado. Efeito de movimento.\n\n- O personagem sofre penalidade de armadura –5.\n- O deslocamento do personagem é reduzido –3m.",
+    "imagem": ""
+  },
+  "Surdo": {
+    "descricao": "Você está surdo. Efeito nos sentidos.\n\n- O personagem não pode fazer testes de Percepção para ouvir.\n- O personagem sofre –5 em testes de Iniciativa.\n- O personagem é considerado em condição ruim para lançar magias.",
+    "imagem": ""
+  },
+  "Surpreendido": {
+    "descricao": "Você está surpreendido.\n\n- O personagem fica desprevenido.\n- O personagem não pode fazer ações.",
+    "imagem": ""
+  },
+  "Vulnerável": {
+    "descricao": "Você está vulnerável.\n\n- O personagem sofre –2 na Defesa.",
+    "imagem": ""
+  },
+  "Testes": {
+    "descricao": "🎲 **Teste de Atributo** \n\n 🎯 **Teste de Perícia** \n\n 🛡️ **Teste de Resistência**\n\n📏 **Dificuldades**\n\n ⚔️ **Testes Opostos**\n\n 🤝 **Ajuda**\n\n⏳ **Teste Sem Rolagem** \n\n 🧩 **Testes Estendidos**\n\n 🪖 **Penalidade de Armadura**\n\n📚 **Não Proficiência**"
+  },
+  "Teste de Atributo": {
+    "descricao": "Você usa testes de atributo para tarefas básicas, para as quais nenhuma perícia se aplica. Para fazer um teste de atributo, role 1d20 e some o valor do atributo apropriado.\n\n- Teste de Atributo = 1d20 + Atributo\n\nExemplos:\n• Erguer um objeto pesado (Força).\n• Amarrar cordas (Destreza).\n• Estabilizar sangramento (Constituição).\n• Resolver um enigma (Inteligência).\n• Decidir se algo é prudente (Sabedoria).\n• Causar boa impressão (Carisma).",
+    "imagem": ""
+  },
+  "Teste de Pericia": {
+    "descricao": "Um teste de perícia funciona como um teste de atributo, porém você soma o bônus da perícia. Esse número é uma medida de sua competência com a perícia em questão, igual à metade do seu nível (arredondado para baixo) + o atributo-chave da perícia.\n\n- Teste de Perícia = 1d20 + Metade do Nível + Atributo-Chave + Bônus de Treinamento (se for treinado)\n\n- Bônus de Treinamento: Nas perícias treinadas você recebe um bônus de +2 do 1º ao 6º níveis, +4 do 7º ao 14º níveis e +6 do 15º nível em diante.\n\n- Treinamento e Testes (★): Algumas perícias só podem ser usadas quando você é treinado nelas.\n\n- Penalidade de Armadura (✠): Algumas perícias exigem liberdade de movimento. Quando o símbolo aparece, você sofre penalidade se estiver usando armadura ou escudo.",
+    "imagem": ""
+  },
+  "Teste de Resistencia": {
+    "descricao": "Habilidades e magias prejudiciais normalmente permitem que seus alvos façam um teste de resistência para evitar ou reduzir seus efeitos.\n\n- CD do Teste = 10 + Metade do Nível + Atributo\n\n- Anula: A habilidade não tem efeito sobre um alvo que passe no teste.\n- Parcial: O efeito é menor em um alvo que passe no teste.\n- Reduz à Metade: O efeito é reduzido à metade em um alvo que passe no teste.\n\n- Objetos e Testes de Resistência: Itens carregados não sofrem dano por habilidades, mas itens soltos podem.\n\n- Testes de Perícia: Algumas habilidades incluem testes de perícia para resistir a efeitos, com dificuldade igual à CD do teste de resistência.",
+    "imagem": ""
+  },
+  "Dificuldades": {
+    "descricao": "Testes normais, que não possuem CD definida, são usados quando um personagem está competindo contra o ambiente. A CD é determinada pelo mestre, de acordo com a tarefa sendo realizada.\n\nExemplos:\n- Fácil (CD 5): Subir uma encosta íngreme (Atletismo).\n- Média (CD 10): Ouvir um guarda se aproximando (Percepção).\n- Difícil (CD 15): Estancar um sangramento (Cura).\n- Desafiadora (CD 20): Nadar contra uma correnteza (Atletismo).\n- Formidável (CD 25): Sabotar uma armadilha complexa (Ladinagem).\n- Heroica (CD 30): Decifrar um pergaminho antigo em um idioma morto (Conhecimento).\n- Quase Impossível (CD 40): Fabricar uma “obra-prima” com quatro melhorias (Ofício).\n\n*Caso um personagem tente uma tarefa fácil, o mestre pode considerar que ele passa automaticamente.*",
+    "imagem": ""
+  },
+  "Testes Opostos": {
+    "descricao": "Testes opostos são usados quando dois ou mais personagens estão competindo entre si. Cada personagem envolvido faz seu teste. Aquele com maior valor é o vencedor. Em caso de empate, aquele com o maior bônus vence. Se os bônus forem iguais, outra rolagem deve ser feita.",
+    "imagem": ""
+  },
+  "Ajuda": {
+    "descricao": "Às vezes, os personagens trabalham juntos e se ajudam.\n\n- Um personagem (normalmente o que tem maior bônus) é o líder e faz o teste normal.\n- Cada ajudante faz um teste contra CD 10 (usando a mesma perícia ou outra que faça sentido).\n- Cada ajudante que passar concede +1 de bônus ao líder, mais +1 adicional para cada 10 pontos acima da CD (+2 para 20, +3 para 30, etc).\n\n- Em muitos casos, ajuda externa não traz benefício (ex: não se pode ajudar a ser mais silencioso em Furtividade).\n- Pode haver limite no número de ajudantes, conforme o mestre determinar.\n- O mestre limita a ajuda conforme a tarefa e condições.",
+    "imagem": ""
+  },
+  "Teste sem Rolagem": {
+    "descricao": "Um teste representa uma tarefa desafiadora. Quando a tarefa não é difícil ou urgente, você pode escolher o resultado do teste: 0, 10 ou 20.\n\n- Escolher 0: Se seu bônus total é igual ou maior que a CD, você passa automaticamente com o mínimo sucesso.\n- Escolher 10: Realiza a tarefa com calma, sem chance de erro, como um 1d20 com resultado 10.\n- Escolher 20: Gasta todo o tempo necessário para garantir o sucesso, equivalente a um resultado 20 automático. Exige tempo muito maior para executar.\n\nEssas escolhas ajudam a agilizar tarefas simples ou sem risco.",
+    "imagem": ""
+  },
+  "Testes Estendidos": {
+    "descricao": "Em um teste estendido, o grupo deve acumular sucessos antes de três falhas, que indicam falha total.\n\n- Mais complexa a tarefa, mais sucessos são exigidos.\n- Testes estendidos podem envolver várias perícias diferentes.\n- Cada teste avulso deve usar perícia diferente.\n- Personagens podem ajudar usando a regra de ajuda, mas não podem repetir a mesma perícia usada para ajudar ou teste principal.\n\n- O mestre pode aplicar dificuldades cumulativas (+2 na CD a cada teste) ou penalidades cumulativas (–2 a cada falha).\n- Testes estendidos podem ser interrompidos, mas isso pode contar como falha parcial ou total conforme o mestre.",
+    "imagem": ""
+  },
+  "Penalidade de Armadura": {
+    "descricao": "A maioria das armaduras dificulta o uso de perícias que exigem agilidade.\n\n- Penalidade aplicada em testes de Acrobacia, Furtividade, Ladinagem e Atletismo (natação).\n- Penalidades de armaduras e escudos se acumulam.\n\nValores típicos:\n• Couro batido e Escudo leve (–1)\n• Brunea, Cota de malha, Escudo pesado e Casaco longo (–2)\n• Gibão de peles e Loriga segmentada (–3)\n• Couraça e Meia armadura (–4)\n• Armadura completa (–5)",
+    "imagem": ""
+  },
+  "Nao Proficiência": {
+    "descricao": "Proficiência indica as armas e armaduras que você sabe usar.\n\n- Atacar com arma não proficiente aplica –5 nos testes de ataque.\n- Usar armadura ou escudo que não sabe usar aplica a penalidade de armadura em todas as perícias baseadas em Força e Destreza.",
+    "imagem": ""
+  },
+  "Combate": {
+    "descricao": "▶️ **Ação Padrão**\n\n🏃‍♂️ **Ação de Movimento**\n\n🔄 **Ação Completa**\n\n💬 **Ação Livre**\n\n⚡ **Reação**\n\n⛰️ **Terreno Elevado**\n\n🕵️‍♂️ **Camuflagem**\n\n🛡️ **Cobertura**\n\n🔄 **Flanquear**\n\n➕ **Acumulando Efeitos**\n\n💥 **Dano não Letal**\n\n⚰️ **Morte**"
+  },
+   "Ação Padrão": {
+    "descricao": "Ação Padrão\n\n- Sua ação padrão normalmente representa a coisa mais importante que você vai fazer em seu turno.\n- Agredir (ataque corpo a corpo ou à distância), Atropelar, Fintar, Lançar uma Magia, Manobra de Combate, Preparar, Usar Habilidade ou Item Mágico."
+  },
+  "Ação de Movimento": {
+    "descricao": "Ação de Movimento\n\n- Serve para mudar algo de posição — seja você, seja um item.\n- Levantar-se, Mirar, Movimentar-se, Sacar ou Guardar Item, Vestir ou Despir Item."
+  },
+  "Ação Completa": {
+    "descricao": "Ação Completa\n\n- Exige todo o tempo e esforço normal de uma rodada.\n- Você deve abrir mão de sua ação padrão e de sua ação de movimento — mas, normalmente, ainda pode realizar ações extras, ações livres e reações.\n- Corrida, Golpe de Misericórdia, Investida, Lançar uma Magia."
+  },
+  "Ação Livre": {
+    "descricao": "Ação Livre\n\n- Demanda pouco ou nenhum tempo, esforço ou atenção.\n- Pode ser feita só em seu turno.\n- Normalmente pode executar quantas ações livres quiser por turno, mas o mestre pode limitar ou proibir ações complexas.\n- Atrasar, Falar, Jogar-se no Chão, Largar Item."
+  },
+  "Reação": {
+    "descricao": "Reação\n\n- Uma reação acontece em resposta a outra coisa.\n- Como ações livres, reações tomam tão pouco tempo que você pode realizar qualquer quantidade delas.\n- A diferença é que uma ação livre é uma escolha consciente, executada no turno do personagem.\n- Já uma reação é um reflexo ou uma resposta automática, que pode ocorrer mesmo fora do seu turno.\n- Você pode reagir mesmo se não puder realizar ações normais, como quando estiver atordoado.\n- Habilidades Engatilhadas: Habilidades ativadas por decorrência de outro evento (como fazer um ataque), são ativadas como uma reação e somente uma vez por instância do evento."
+  },
+  "Terreno Elevado": {
+    "descricao": "Terreno Elevado\n\n- Um personagem que está em posição elevada em relação a seu inimigo recebe bônus no ataque.\n- Personagem no lado superior recebe +2 no ataque contra personagem no lado inferior."
+  },
+  "Camuflagem": {
+    "descricao": "Camuflagem\n\n- Um personagem recebe camuflagem leve quando um efeito dificulta a visão dos inimigos.\n- E recebe camuflagem total quando um efeito impede a visão dos inimigos.\n- Camuflagem Leve: Ataques contra um personagem com camuflagem leve têm 20% de chance de falha.\n- Camuflagem Total: Ataques contra um personagem com camuflagem total têm 50% de chance de falha."
+  },
+  "Cobertura": {
+    "descricao": "Cobertura\n\n- Um personagem recebe cobertura leve quando está atrás de algo que bloqueia o ataque dos inimigos.\n- E recebe cobertura total quando seus inimigos não podem alcançá-lo.\n- Cobertura Leve: Fornece +5 na Defesa.\n- Cobertura Total: Impede que o personagem seja atacado."
+  },
+  "Flanquear": {
+    "descricao": "Flanquear\n\n- Quando um personagem luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre os personagens — eles estão flanqueando o alvo.\n- Personagens flanqueando recebem +2 em seus testes de ataque contra o alvo flanqueado.\n- Não se pode flanquear à distância ou com ataques desarmados."
+  },
+  "Acumulando Efeitos": {
+    "descricao": "Acumulando Efeitos\n\n- A interação entre diferentes efeitos depende de sua origem.\n- As fontes de efeitos são habilidades, perícias, itens, magias, parceiros e o ambiente.\n- Efeitos de habilidades e perícias acumulam entre si, exceto quando vierem da mesma habilidade ou perícia.\n- Isso não inclui magias.\n- Efeitos de itens, magias, parceiros e o ambiente acumulam com os de outras fontes, mas não entre si.\n- Bônus na Defesa e penalidade de armadura de escudos se acumulam com os de armaduras e um outro item adicional a sua escolha.\n- O valor de um mesmo atributo não se acumula em características do personagem.\n- A exceção são perícias: é possível somar um atributo a uma perícia que use este mesmo atributo-chave, mas apenas uma vez.\n- Chance de falha nunca acumula acima de 75%. Sempre há no mínimo uma chance de 1 em 4 de acertar o alvo.\n- Reduções no custo de PM não são cumulativas.\n- Uma habilidade nunca pode ter seu custo reduzido para menos de 1 PM.\n- Se mais de um efeito afetar um valor, siga a ordem de operações padrão.\n- Ou seja, aplique primeiro multiplicações e divisões, depois somas e subtrações.\n- O resultado de um teste de resistência é sempre o primeiro a ser aplicado.\n- Se mais de um efeito fizer você multiplicar um valor, combine-os em um único multiplicador, com cada efeito além do primeiro adicionando seu multiplicador –1."
+  },
+  "Dano não Letal": {
+    "descricao": "Dano não Letal\n\n- Conta para determinar quando você cai inconsciente, mas não para determinar quando você começa a sangrar ou morre.\n- Quase todo dano causado em condições normais (armas, armadilhas, magias...) é letal.\n- Você pode usar uma arma para causar dano não letal, mas sofre uma penalidade de –5 no teste de ataque.\n- Ataques desarmados e certas armas específicas causam dano não letal.\n- Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n- Efeitos de cura recuperam primeiro pontos de vida perdidos por dano não letal."
+  },
+  "Morte": {
+    "descricao": "Morte\n\n- O dano pode deixar cicatrizes, amassar sua armadura e sujar sua roupa de sangue, mas não o impede de agir.\n- Isso só muda quando seus pontos de vida chegam a 0 ou menos.\n- Se ficar com 0 ou menos PV, você cai inconsciente e sangrando.\n- No início de seu turno, faça um teste de Constituição (CD 15).\n- Se passar, você estabiliza e não precisa mais fazer esse teste (exceto se perder mais PV).\n- Se falhar, você perde 1d6 pontos de vida.\n- Você deve repetir o teste a cada rodada, até estabilizar ou morrer.\n- Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou com qualquer efeito que cure pelo menos 1 PV.\n- Um personagem com 0 ou menos pontos de vida que recupere PV até um valor positivo (1 ou mais) por causa de uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente.\n- Quando seus pontos de vida chegam a –10 ou a um número negativo igual à metade de seus PV totais (o que for mais baixo), você morre."
+  },
+  "Ações padrao": {
+    "descricao": " Sua ação padrão normalmente representa a coisa mais importante que você vai fazer em seu turno como:\n\n🎯 **Ataque à Distância**\n\n⚔️ **Ataque Corpo a Corpo**\n\n🚗 **Atropelar**\n\n🤡 **Fintar**\n\n✨ **Lançar Magia**\n\n🤺 **Manobra de Combate**\n\n⏳ **Preparar**\n\n🛠️ **Usar Habilidade**\n\n📿 **Usar Item Mágico**\n\n🤼 **Agarrar**\n\n⬇️ **Derrubar**\n\n🗑️ **Desarmar**\n\n🤜 **Empurrar**\n\n🔨 **Quebrar**"
+  },
+   "Ataque à Distância": {
+    "descricao": "🏹 **Ataque à Distância**\n\n Para atacar com uma arma de combate à distância, faça um teste de Pontaria.\n- Pode atacar qualquer inimigo que consiga ver e que esteja no alcance da arma (ou até o dobro do alcance, sofrendo penalidade de –5).\n\n- **Arremesso:** A própria arma é atirada, como adaga ou azagaia. Sacar arma de arremesso é ação de movimento. Ao atacar, some Força ao dano.\n- **Disparo:** A arma dispara um projétil, como arco com flechas. Sacar munição é ação livre. Recarregar exige duas mãos. Não soma atributo ao dano.\n\n- Ataques à distância contra inimigos em combate corpo a corpo sofrem –5 no teste de ataque.\n- Uma criatura está em combate corpo a corpo se estiver dentro do alcance natural de qualquer inimigo (incluindo você)."
+  },
+  "Ataque Corpo a Corpo": {
+    "descricao": "⚔️ **Ataque Corpo a Corpo**\n\n Para atacar com uma arma de combate corpo a corpo, faça um teste de Luta.\n- Pode atacar inimigos dentro do alcance natural (1,5m para Pequenas e Médias ou inimigo adjacente no mapa).\n- Personagens maiores ou armas específicas podem atacar mais longe.\n- Ao atacar com arma corpo a corpo, some Força ao dano.\n- Pode substituir um ataque corpo a corpo por uma Manobra de Combate."
+  },
+  "Atropelar": {
+    "descricao": "🐂 **Atropelar**\n\n Usa uma ação padrão durante movimento para avançar pelo espaço ocupado por uma criatura.\n- Se a criatura permitir passagem, avança sem teste.\n- Se resistir, faça teste de manobra oposto; vitória deixa criatura caída e avanço continua.\n- Se alvo vencer, continua de pé e avanço para.\n- Atropelar é ação livre se feita durante uma investida."
+  },
+  "Fintar": {
+    "descricao": "🤥 **Fintar**\n\n Tenta confundir e enganar uma criatura.\n- Faça teste de Enganação oposto ao teste de Reflexos da criatura em alcance curto.\n- Se passar, a criatura fica desprevenida contra seu próximo ataque até o fim do próximo turno."
+  },
+  "Lançar Magia": {
+    "descricao": "✨ **Lançar Magia**\n\n A ação necessária depende da magia; a maioria exige ação padrão.\n- Custo em PM: varia conforme círculo (1º: 1 PM, 2º: 3 PM, 3º: 6 PM, 4º: 10 PM, 5º: 15 PM).\n- Gestos e Palavras: ato chamativo; conjurador amordaçado ou sem mãos não pode lançar.\n- Custos especiais: componentes materiais são consumidos mesmo que a magia falhe.\n- Execução: uma magia com execução de ação livre só pode ser lançada uma vez por rodada.\n- Concentração: conjurador em situação difícil faz teste de Vontade (CD varia) para não perder a magia.\n- Aprimoramentos: pode gastar mais PM até limite igual ao nível da classe ou personagem.\n- Sustentada: gasta 1 PM como ação livre no início de cada turno para manter.\n- Armadura e Magias Arcana: lançar com armadura exige teste de Misticismo (CD 20 + custo em PM)."
+  },
+  "Manobra de Combate": {
+    "descricao": "🛡️ **Manobra de Combate**\n\n Ataque corpo a corpo para algo além de dano, como desarmar ou empurrar.\n- Não pode ser feito com armas à distância.\n- Faça teste de manobra (ataque corpo a corpo) oposto com a criatura (mesmo que ela use arma à distância, usa valor de Luta).\n- Em caso de empate, vence quem tiver maior bônus; se empatados, faça novo teste.\n- Pode usar qualquer arma corpo a corpo para manobras."
+  },
+  "Preparar": {
+    "descricao": "⏳ **Preparar**\n\n-Prepara uma ação (padrão, movimento ou livre) para executar mais tarde, antes do próximo turno.\n- Defina a ação e as circunstâncias para executá-la como reação.\n- Se não usar antes do próximo turno, perde a ação preparada.\n- Iniciativa do personagem fica imediatamente acima da ação preparada."
+  },
+  "Usar Habilidade": {
+    "descricao": "🎯 **Usar Habilidade**\n\n Habilidades vêm de raça, origem, classe, itens e outras fontes.\n- A ação necessária é determinada pela descrição da habilidade, ou ação livre se não descrito.\n- Custo em PM: pode ser necessário, mesmo que a habilidade falhe.\n- Custos especiais: componentes materiais podem ser consumidos mesmo em falha.\n- Alcance: pessoal, toque, curto (até 9m), médio (30m), longo (90m), ilimitado.\n- Sustentada: gasta 1 PM como ação livre no início de cada turno para manter; pode manter várias."
+  },
+  "Usar Item Mágico": {
+    "descricao": "🪄 **Usar Item Mágico**\n\n- Itens mágicos são divididos em uso único (poções e pergaminhos) e permanentes (armas, armaduras/escudos e acessórios).\n- Ativar um item mágico é geralmente uma ação padrão, salvo se a descrição disser o contrário.\n- Para itens com habilidades ativadas, é necessário primeiro identificá-los antes do uso."
+  },
+  "Agarrar": {
+    "descricao": "🤜 **Agarrar**\n\n- Segure uma criatura (por braço, roupa etc.) fazendo teste de manobra oposto.\n- Criatura agarrada fica desprevenida e imóvel, sofre –2 em ataques e só pode usar armas leves.\n- Criatura pode se soltar com ação padrão e teste de manobra oposto.\n- Só pode agarrar com ataque desarmado ou arma natural; mão/arma fica ocupada.\n- Você se move metade do deslocamento, arrastando a criatura.\n- Pode soltar a criatura com ação livre.\n- Pode atacar criatura agarrada com mão livre ou substituir ataque por teste de agarrar que causa dano de impacto.\n- Ataque à distância contra alvo agarrado tem 50% de chance de errar o alvo."
+  },
+  "Derrubar": {
+    "descricao": "💥 **Derrubar**\n\n- Faça teste de manobra oposto para derrubar criatura.\n- Criatura derrubada fica caída.\n- Vencer por 5 ou mais empurra o oponente 1 quadrado em direção à sua escolha.\n- Se empurrado além de um precipício, alvo pode tentar Reflexos (CD 20) para se segurar.\n- Criatura voando que sofre derrubar cai 1d6 x 1,5m antes de recuperar voo."
+  },
+  "Derrubar Item": {
+    "descricao": "📦 **Derrubar Item**\n\n- Faça teste de manobra oposto para derrubar item que criatura segura.\n- Item normalmente cai no mesmo lugar do alvo.\n- Vencer por 5 ou mais empurra o item 1 quadrado em direção à sua escolha."
+  },
+  "Empurrar": {
+    "descricao": "🚶‍♂️ **Empurrar**\n\n- Faça teste de manobra oposto para empurrar criatura.\n- Empurra a criatura 1,5m.\n- Para cada 5 pontos de diferença, empurra 1,5m adicional.\n- Pode gastar ação de movimento para avançar junto com a criatura (até limite do deslocamento)."
+  },
+  "Quebrar": {
+    "descricao": "🔨 **Quebrar**\n\n- Faça teste de manobra oposto para atacar item que criatura segura.\n- Se vencer, causa dano normal ao objeto.\n- Objetos têm redução de dano conforme material.\n- Objeto com 0 ou menos PV é destruído.\n- Para objetos soltos, ataque contra Defesa baseada em tamanho; se em movimento, +5 na Defesa."
+  },
+   "primeiro circulo": {
+    "descricao": "🍽️ Abençoar Alimentos  🐶 Acalmar Animal  🔥 Açoite Flamejante  🧠 Adaga Mental\n🚨 Alarme  😱 Amedrontar  🛷 Área Escorregadia  🛡️ Arma Espiritual\n✨ Arma Mágica  🐉 Arma de Jade  🧥 Armadura Arcana  🌪️ Armadura Elemental\n🌿 Armamento da Natureza  🎯 Arsenal de Allihanna  📯 Assobio Perigoso  ⚠️ Aviso\n🙌 Bênção  ✋ Bofetada de Nimb  🛤️ Caminhos da Natureza  🗣️ Comando\n📖 Compreensão  🧘 Concentração de Combate  🐾 Conjurar Monstro  ✝️ Consagrar\n🌱 Controlar Plantas  🌍 Criar Elementos  🌀 Criar Ilusão  💊 Curar Ferimentos\n❄️ Dardo Gélido  🕵️ Descobrir Fraqueza  💥 Despedaçar  👁️ Detectar Ameaças\n🧊 Detonação Congelante  🕶️ Discrição  🎭 Disfarce Ilusório  🧊 Disparo Gélido\n🐿️ Distração Fugaz  🪄 Enfeitiçar  🏃 Escapatória de Hyninn  🛡️ Escudo da Fé\n🌑 Escuridão  👻 Espírito Balístico  🥳 Euforia de Valkaria  ⚔️ Execução de Thwor\n🔥 Explosão de Chamas  👃 Farejar Fortuna  🌟 Flecha de Luz  ❄️ Frescor de Lena\n🧓 Fúria dos Antepassados  🔮 Futuro Melhor  🌋 Geiser Cáustico  🌀 Hipnotismo\n🪞 Imagem Espelhada  🩸 Infligir Ferimentos  🕷️ Infortúnio de Sszzaas  🧘‍♂️ Instante Estoico\n🧪 Jato Corrosivo  🌈 Leque Cromático  💡 Luz  🤪 Maaais Klunc\n👐 Magia Dadivosa  🌫️ Névoa  🌩️ Nuvem Tempestuosa  🌊 Orbe do Oceano\n🧭 Orientação  💀 Ossos de Adamante  ❤️‍🔥 Paixão de Marah  👁️‍🗨️ Percepção Rubra\n☠️ Perdição  👻 Perturbação Sombria  🐲 Poder de Kallyadranoch  🗡️ Posse de Arsenal\n🏋️ Primor Atlético  🧛 Profanar  🙏 Proteção Divina  🐂 Proteção de Tauron\n✊ Punho de Mitral  🍃 Queda Suave  ⚡ Raio do Enfraquecimento  🛡️ Resistência a Energia\n🕍 Santuário  🎯 Seta Infalível de Talude  🔏 Sigilo de Sszzaas  🌬️ Siroco de Azgher\n😴 Sono  😄 Sorriso da Fortuna  🌳 Suporte Ambiental  🕸️ Teia\n⚡ Toque Chocante  🐒 Toque de Megalokk  🌅 Toque do Horizonte  🔒 Tranca Arcana\n🕊️ Tranquilidade  🔧 Transmutar Objetos  👁️ Visão Mística  👻 Vitalidade Fantasma\n🗣️ Voz da Razão\n"
+  },
+  "magias": {
+    "descricao": "Aqui está a lista das magias por círculo...\n\n(ou pode estar vazio, pois o menu vai carregar por círculos separados)"
+  },
+  "círculo_1_PM": {
+    "descricao": "Abençoar Alimentos\nAcalmar Animal\nArmadura Arcana\nToque Chocante"
+  },
+  "Abençoar Alimentos": {
+    "descricao": "Torna comida estragada comestível por 24 horas."
+  },
+  "Acalmar Animal": {
+    "descricao": "Acalma uma fera por 1 minuto."
+  },
+  "Armadura Arcana": {
+    "descricao": "Cria um campo de força que concede +2 na Defesa."
+  },
+  "Toque Chocante": {
+    "descricao": "Desfere um ataque corpo a corpo com 1d8 de dano elétrico."
+  }
+}

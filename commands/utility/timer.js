@@ -14,7 +14,7 @@ function formatarTempo(segundosTotais) {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('timer')
-    .setDescription('Inicia um timer regressivo (um por canal)')
+    .setDescription('Inicia um timer regressivo 🕐 (um por canal)')
     .addIntegerOption(option =>
       option.setName('horas')
         .setDescription('Horas')
@@ -32,7 +32,7 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; 
+    const roleNecessaria = '👤ᆞHospede'; 
     
         if (!verificarPermissao(interaction, roleNecessaria)) {
           return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });

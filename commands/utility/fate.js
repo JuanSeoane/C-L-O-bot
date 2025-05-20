@@ -3,9 +3,9 @@ const verificarPermissao = require('./verificacao');
 module.exports = {
     data: new SlashCommandBuilder()
       .setName('fate')
-      .setDescription('Roda 4 dados no estilo do sistema FATE.'),
+      .setDescription('Roda 4 dados no estilo do sistema 🃏 FATE.'),
       async execute(interaction) {
-        const roleNecessaria = 'everyone'; 
+        const roleNecessaria = '👤ᆞHospede'; 
             if (!verificarPermissao(interaction, roleNecessaria)) {
               return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });
             }

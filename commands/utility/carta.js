@@ -6,10 +6,10 @@ const valores = ['As', '2', '3', '4', '5', '6', '7', '8', '9', '10', '🔱 Valet
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('carta')
-    .setDescription('Puxa uma carta aleatória de um baralho (incluindo coringa)'),
+    .setDescription('Puxa uma carta aleatória de um baralho ♣️♥️ (incluindo coringa)'),
   
   async execute(interaction) {
-    const roleNecessaria = 'everyone'; 
+    const roleNecessaria = '👤ᆞHospede'; 
     if (!verificarPermissao(interaction, roleNecessaria)) {
       return interaction.reply({ content: '❌ Você não tem permissão para usar este comando.', ephemeral: true });
     }
